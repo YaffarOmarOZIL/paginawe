@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Lexend Deca;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,248,183,1) 12%, rgba(224,185,84,1) 23%, rgba(175,133,57,1) 39%, rgba(156,106,50,1) 68%, rgba(102,74,9,1) 100%); 
+}
+.nav{
+    margin: auto;
+    height: 4em;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin: 10px;
+    color: white;
+}
+.menu{
+    display: flex;
+    padding: 1em;
+    font-weight: bold;
+}
+.menu li{
+    list-style: none;
+    margin: 5px;
+}
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.menu li a:hover{
+    padding: 5px 10px;
+    background: #fff;
+    color: black;
+    border-radius: 15px;
+}
+.scrol{
+    height: 100px;
+}
+#con1{
+    display: flex;
+}
+.izq{
+    width: 67%;
+    height: 425px;
+    padding: 10px;
+    padding-left: 60px;
+    font-size: 30px;
+}
+.der{
+    background: url(moral1.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    background-position: center;
+    width: 33%;
+    height: 500px;
+}
+.titulo{
+    margin: 20px;
+}
+#tit{
+    font-weight: bolder;
+    font-size: 90px;
+}
+#con2{
+    background-color: #474747;
+    margin: 15px;
+    height: 300px;
+    border-radius: 10px;
+}
+.info{
+    color: white;
+    padding: 20px;
+}
+#tol{
+    font-size: 60px;
+    flex: content;
+}
+#iF{
+    font-size: 25px;
+    padding-right: 600px;
+}
+#imgCD{
+    height: 260px;
+}
+#con3{
+    background: url(moral3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: white;
+}
+.ap{
+    background: rgb(52,36,0);
+    background: linear-gradient(0deg, rgba(52,36,0,1) 0%, rgba(255,255,255,0) 100%); 
+}
+#VT{
+    font-size: 50px;
+}
+.vidp1{
+    width: 50%;
+    align-items: center;
+}
+.vidp2{
+    width: 50%;
+    align-items: center;
+}
+#concon1{
+    display: flex;
+    margin: 10px;
+    margin-left: 80px;
+}
+.vida1{
+    width: 50%;
+    align-items: center;
+}
+.vida2{
+    width: 50%;
+    align-items: center;
+}
+#concon2{
+    display: flex;
+    margin: 10px;
+    margin-left: 80px;
+}
+#negy{
+    background-color: black;
+}
+.do{
+    display: flex;
+    margin: 10px;
+}
+.men1{
+    width: 50%;
+}
+.men2{
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+#toli{
+    font-size: 60px;
+}
+#iFi{
+    font-size: 25px;
+}
+#bib{
+    height: 280px;
+    padding-left: 100px;
+}
+#repip{
+    font-size: 40px;
+}
+.cajaIMG{
+display: flex;
+max-width: 100vw;
+width: 100%;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 15px;
+}
+#MG{
+    width: 450px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    padding: 10px;
+}
+#MG:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transform: scale(1.05);
+    transition: 0.4s ease-out;
+}
+.formas{
+    padding: 15px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+}
+#ult{
+    font-size: 35px;
+}
+#baito{
+    border-radius: 10px;
+    align-items: center;
+    height: 80px;
+    width: 240px;
+    font-size: 23px;
+    background-color: white;
+    border: none;
+}
+#baito:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.2s ease-out;
+}
+.pabu{
+    text-align: center;
+    font-weight: bolder;
+}
+.ros{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(148,187,233,0) 100%); 
+}
+#inqf{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    text-align: center;
+}

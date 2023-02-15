@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="dise.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script type="text/javascript">
+     	function vali(){
+     		valor = document.getElementById("nomB").value;
+     		valor1 = document.getElementById("usu").value;
+     		valor2 = document.getElementById("ima").value;
+     		valor3 = document.getElementById("telcel").value;
+     		valor4 = document.getElementById("con1").value;
+     		valor5 = document.getElementById("con2").value;
+			if(valor == null || valor.length == 0 || valor1 == null || valor1.length == 0 || valor2 == null || valor2.length == 0 || valor3 == null || valor3.length == 0 || valor4 == null || valor4.length == 0 || valor5 == null || valor5.length == 0)
+			{
+     		alert('Falta completar campos');
+     		}
+     		else {
+     		alert('Se registraron sus datos');
+     		}
+   	    }
+     </script>
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registro</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Nombre completo</span>
+            <input type="text" id="nomB" placeholder="Ingrese su nombre" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Usuario</span>
+            <input type="text" id="usu" placeholder="Ingrese su usuario" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" id="ima" placeholder="Ingrese su email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Numero telefonico</span>
+            <input type="text" id="telcel" placeholder="Ingrese su telefono" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Contraseña</span>
+            <input type="password" id="con1" placeholder="Ingrese su contraseña" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirmar contraseña</span>
+            <input type="password" id="con2" placeholder="Confirme su contraseña" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Genero</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Masculino</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Femenino</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Helicoptero Apache A-401</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" onclick="vali()" value="Registrarse">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
